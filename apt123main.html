@@ -1,0 +1,96 @@
+<!--
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no" />
+<title>아파트123</title>
+<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="css/content2.css" />
+<link rel="stylesheet" href="css/header.css" />
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap&subset=korean" rel="stylesheet"/>
+<script src="js/jquery-3.4.1.min.js"></script>
+<style>
+/* #mainFrame { */
+/* 	width: 100%; */
+/* 	height: 100vh; */
+/* } */
+
+</style>
+<script type="text/javascript">
+	$(function() {
+
+		doResize();
+	})
+
+	$(window).resize(function() {
+		doResize();
+	})
+
+	function doResize() {
+		var bodyHeight = 0;
+		var mainMenuHeight = 0;
+		var mainFrameH = 0;
+		bodyHeight = window.innerHeight;
+		mainFrameH = bodyHeight - mainMenuHeight;
+		$("#mainFrame").css("height", mainFrameH + "px");
+	}
+</script>
+</head>
+<body>
+
+	<div id="header">
+		<div class="center">
+			<h1 class="logo" style="cursor: pointer">
+				<img src="images/apart123Logo.png" alt="아파트123" />
+			</h1>
+			<ul id="nav">
+				<li><a href="" class="navBlue">전자결재</a>
+					<ul class="subMenu">
+						<li style="cursor: pointer">아파트 전자문서함</li>
+						<li style="cursor: pointer">결재대기함</li>
+						<li style="cursor: pointer">결재진행함</li>
+						<li style="cursor: pointer">결재완료함</li>
+						<li style="cursor: pointer">나의수신함</li>
+						<li style="cursor: pointer">나의 기안함</li>
+						<li style="cursor: pointer">반송함</li>
+						<li style="cursor: pointer">임시보관 문서함</li>
+						<li style="cursor: pointer">휴지통</li>
+					</ul></li>
+				<li><a href="" class="navGreen">문서유통</a>
+					<ul class="subMenu">
+						<li style="cursor: pointer">공문발신함</li>
+						<li style="cursor: pointer">공문수신함</li>
+						<li style="cursor: pointer">공문접수함</li>
+						<li style="cursor: pointer">공문반송함</li>
+						<li style="cursor: pointer">임시보관함</li>
+						<li style="cursor: pointer">휴지통</li>
+					</ul></li>
+				<li><a href="" class="navOrange">상황전파</a>
+					<ul class="subMenu">
+						<li style="cursor: pointer">상황전파수신함</li>
+						<li style="cursor: pointer">상황전파발신함</li>
+						<li style="cursor: pointer">임시보관함</li>
+						<li style="cursor: pointer">휴지통</li>
+					</ul></li>
+				
+				
+			</ul>
+			<p class="hamButton">
+				<a href=""><img src="images/hamBtn.png" alt="전체메뉴보기" /></a>
+			</p>
+			<div class="search">
+				<input type="text" placeholder="검색어를 입력해주세요" /><img
+					src="images/searchBtn.png" alt="검색" class="searchBtn" />
+			</div>
+
+		</div>
+	</div>
+	<iframe src="content2.html" frameborder="0"
+		style="width: 100%;" id="mainFrame" scrolling="no"></iframe>
+
+</body>
+</html>

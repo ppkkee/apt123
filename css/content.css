@@ -1,0 +1,501 @@
+#contents {
+	width: 100%;
+	height: 100vh;
+	margin-top: 85px;
+	padding-top: 17px;
+	background-image: url(../images/contentBg.png);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.search {
+	position: relative;
+	float: right;
+	width: 200px;
+	height: 34px;
+	top: 25px;
+	border: 2px solid #E0E3E7;
+	border-radius: 19px;
+	background-color: white;
+}
+
+.search>input {
+	width: 150px;
+	height: 32px;
+	margin-top:1px;
+	margin-left: 20px;
+	border: none;
+		font-size: 14px;
+	letter-spacing: -0.42px;
+	color: #A4A4A4;
+	background-color: transparent;
+}
+
+.search .searchBtn {
+	position: absolute;
+	top: 6px;
+	right: 10px;
+}
+
+.frame {
+	position: relative; background : #FFFFFF;
+	border: 1px solid #DEE3EB;
+	border-radius: 15px;
+	box-shadow: 0 0 25px #DEE3EB;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	overflow:hidden;
+/*변경 */
+/* margin: 8.5px; */
+}
+
+.topNotice {
+	width: 100%;
+	height: 70px;
+	margin-bottom: 17px;
+	overflow: hidden;
+}
+
+.day {
+	float: left;
+	width: 213px;
+	height: 70px;
+	border-right: 1px solid #DEE3EB;
+}
+
+.dayIcon {
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.dayText {
+	float: left;
+	line-height: 70px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 17px;
+	letter-spacing: 1.7px;
+}
+
+.noticeTodayWrap {
+	float: left;
+}
+
+.noticeTodayIcon {
+	margin: 0 15px 0 20px;
+	
+	
+}
+
+.noticeTodayIcon>img{
+width: 17px;
+}
+.noticeTodayText {
+	float: left;
+}
+
+.noticeTodayText>li {
+	height: 70px;
+	line-height: 70px;
+	color: #FA932D;
+	font-size: 20px;
+}
+
+.middle {
+	width: 100%;
+	hegiht: 440px;
+	
+}
+
+.noticeAll {
+	float: left;
+	width: 780px;
+	height: 440px;
+	margin-right: 17px;
+}
+
+.profile {
+	position: relative;
+	float: right;
+	width: 433px;
+	height: 106px;
+	margin-bottom: 17px;
+}
+
+.profilePic {
+	float: left;
+	margin: 25px 20px;
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+	border: 2px solid #CFCFCF;
+}
+
+.welcome {
+	font-size: 16px;
+	margin-top: 35px;
+}
+
+.loginTime {
+	color: #C2C2C2;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.logOutButton {
+	position: absolute;
+	margin-right: 14px;
+	right: 15px;
+	bottom: 18px;
+}
+
+.logOutButton>a {
+	display: inline-block;
+	padding: 0 7px;
+	height: 23px;
+	line-height: 23px;
+	border: 1px solid #D6D3D3;
+}
+
+.nameCard {
+	float: right;
+	width: 433px;
+	height: 317px;
+	background: url(../images/namecard.png) no-repeat bottom;
+	background-size: cover;
+	padding: 0 80px;
+	box-sizing: border-box;
+}
+
+.nameCardTop {
+	/* 	margin-top: 30px; */
+	
+}
+
+.aptIcon {
+	width: 105px;
+	height: 105px;
+	border-radius: 50%;
+	margin: 18px auto 0;
+	overflow: hidden;
+}
+
+.aptIcon>img {
+	
+}
+
+.aptTitle {
+	font-size: 20px;
+	margin-top: 17px;
+	text-align: center;
+}
+
+.namecardIcon {
+	float: left;
+	width: 30px;
+	/* 	height:50px; */
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+
+.nameCardText {
+	float: left;
+	margin-top: 20px;
+}
+
+.aptNum {
+	float: left;
+}
+
+.aptNum .nameCardText {
+	/* line-height: 30px; */
+	
+}
+
+.address {
+	float: right;
+	width: 60%;
+}
+
+.address .nameCardText {
+	width: 130px;
+	word-break: keep-all;
+}
+
+.nameSearch .namecardIcon {
+	float: left;
+	margin-top: 20px;
+	margin-right: 10px;
+	width: 15px;
+}
+
+.nameSearch .nSearch {
+	position: relative;
+	float: left;
+	width: 230px;
+	height: 38px;
+	top: 25px;
+	border: 2px solid #E0E3E7;
+	border-radius: 19px;
+	background-color: white;
+}
+
+.nameSearch .nSearch>input {
+	width: 180px;
+	height:36px;
+	border: none;
+	margin-top: 1px;
+	margin-left: 20px;
+	float: left;
+font-size: 14px;
+}
+
+.nameSearch .nSearchBtn {
+	position: absolute;
+	top: 6px;
+	right: 10px;
+}
+
+.bottom {
+	width: 100%;
+	float: left;
+	margin-top: 17px;
+}
+
+.bottom>div {
+	width: 606.5px;
+	height: 440px;
+}
+
+.document {
+	float: left;
+	margin-right: 17px;
+}
+
+.broadcast {
+	float: left;
+}
+
+/* tab */
+.tabTitle {
+	/* 	top: 220px; */
+	/* 	left: 393px; */
+	width: 140px;
+	height: 21px;
+	float: left;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing: 0;
+	color: #222222;
+	opacity: 1;
+	margin: 27px 00px 27px 23px;
+}
+
+.tabImg {
+	margin-right: 10px;
+}
+
+.tabSearch {
+	right: 28px;
+	top: 20px;
+}
+
+.tabWrap {
+	/* 	position:relative; */
+	
+}
+
+.tab_Menu {
+	position: relative;
+	top: 3px;
+	z-index: 10;
+}
+
+.tabMenu {
+	border: 1px solid #DEE3EB;
+	width: 130px;
+	height: 30px;
+	border-radius: 5px 5px 0px 0px;
+	border: none;
+	opacity: 1;
+	float: left;
+	font-size: 14px;
+	margin-left: 10px;
+	background-color: #DEE3EB;
+	opacity: 1;
+	text-align: center;
+	border-bottom: none;
+	box-sizing: border-box;
+	box-shadow: 0 -6px 15px -4px #DEE3EB;
+}
+
+.tabMenu a {
+	display: inline-block;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	box-shadow:inset 0 -6px 8px -4px rgba(0,0,0,0.2);
+	text-align: center;
+	box-sizing: border-box;
+	border-bottom: none;
+}
+
+.tabMenu.current {
+	border: 1px solid #DEE3EB;
+	border-bottom: none;
+	box-sizing: border-box;
+	border-radius : 5px 5px 0px 0px;
+	background: white;
+
+}
+
+.tabMenu.current a {
+	box-shadow: 0 0 0 0 ;
+}
+
+
+.more {
+	float: right;
+	margin: 5px 28px 0 0;	
+	
+}
+
+.tabPage {
+	width: 778px;
+	padding-top: 23px;
+	float: left;
+	width: 100%;
+	border: none;
+}
+
+.tabFrame {
+	position: absolute;
+	width: 100%;
+	height: 330px;
+	box-shadow: 0px -10px 20px -5px #DEE3EB;
+	border: none;
+	z-index: 5;
+	bottom: 0;
+	padding: 0 28px;
+	box-sizing: border-box;
+}
+
+.tabContents {
+	margin: 0 0 28px 0;
+	border-radius: 5px 5px 0px 0px;
+	font-size: 14px;
+	float: left;
+	width: 100%;
+	height: 16px;
+	box-sizing: border-box;
+}
+
+.preNotice {
+	/* 	top: 332px; */
+	/* 	left: 363px; */
+	width: 46px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #0297E0;
+	border-radius: 20px;
+	opacity: 1;
+	font-size: 9px;
+	text-align: center;
+	vertical-align: middle;
+	display: table;
+	color: #0297E0;
+	float: left;
+	margin-right: 20px;
+}
+
+.noticeSubject {
+	float: left;
+	color: #222222;
+	max-width: 290px;
+	opacity: 1;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.newButton {
+	float: left;
+	margin-left: 10px;
+	width: 19px;
+}
+
+.tabDate {
+	float: right;
+}
+
+.documentWrap {
+	top: 193px;
+	left: 339px;
+	width: 603px;
+	height: 439px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+	box-shadow: 0 0 20px 2px gray;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.documentDate {
+	float: right;
+	width: 20%;
+}
+
+.situationTabMenu {
+	top: 267px;
+	left: 363px;
+	width: 103px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px 5px 0px 0px;
+	border: 1px solid #DEE3EB;
+	border: none;
+	opacity: 1;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 10px;
+	background-color: #DEE3EB;
+	border-bottom: none;
+	box-shadow: 0 -6px 15px -4px #DEE3EB;
+}
+
+.newSitu {
+	width: 120px;
+}
+
+.situationTabMenu a {
+	display: inline-block;
+	width: 103px;
+	height: 30px;
+}
+
+.situationTabMenu.current {
+	border: 1px solid #DEE3EB;
+	border-bottom: none;
+	background: white;
+	border-bottom: 1px solid white;
+	box-shadow: 0 -6px 15px -4px #DEE3EB;
+	text-align: center;
+}
+
+.documentSubject {
+	float: left;
+	top: 335px;
+	left: 424px;
+	width: 257px;
+	height: 16px;
+	text-align: left;
+	font: Regular 14px/14px NanumGothic;
+	letter-spacing: 0;
+	color: #222222;
+	opacity: 1;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden
+}
